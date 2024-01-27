@@ -1,0 +1,3193 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AnchorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StackViewProtocol",
+        "printedName": "StackViewProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "VStack",
+            "printedName": "VStack(views:spacing:alignment:distribution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "UIKit.UIStackView.Alignment",
+                "usr": "c:@E@UIStackViewAlignment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Distribution",
+                "printedName": "UIKit.UIStackView.Distribution",
+                "usr": "c:@E@UIStackViewDistribution"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolP6VStack5views7spacing9alignment12distributionSo07UIStackD0CSo6UIViewCd_14CoreFoundation7CGFloatVSo0kD9AlignmentVSo0kD12DistributionVtF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolP6VStack5views7spacing9alignment12distributionSo07UIStackD0CSo6UIViewCd_12CoreGraphics7CGFloatVSo0kD9AlignmentVSo0kD12DistributionVtF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnchorKit.StackViewProtocol>",
+            "sugared_genericSig": "<Self where Self : AnchorKit.StackViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "HStack",
+            "printedName": "HStack(views:spacing:alignment:distribution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "UIKit.UIStackView.Alignment",
+                "usr": "c:@E@UIStackViewAlignment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Distribution",
+                "printedName": "UIKit.UIStackView.Distribution",
+                "usr": "c:@E@UIStackViewDistribution"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolP6HStack5views7spacing9alignment12distributionSo07UIStackD0CSo6UIViewCd_14CoreFoundation7CGFloatVSo0kD9AlignmentVSo0kD12DistributionVtF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolP6HStack5views7spacing9alignment12distributionSo07UIStackD0CSo6UIViewCd_12CoreGraphics7CGFloatVSo0kD9AlignmentVSo0kD12DistributionVtF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnchorKit.StackViewProtocol>",
+            "sugared_genericSig": "<Self where Self : AnchorKit.StackViewProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "VStack",
+            "printedName": "VStack(views:spacing:alignment:distribution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "UIKit.UIStackView.Alignment",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIStackViewAlignment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Distribution",
+                "printedName": "UIKit.UIStackView.Distribution",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIStackViewDistribution"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAAE6VStack5views7spacing9alignment12distributionSo07UIStackD0CSo6UIViewCd_14CoreFoundation7CGFloatVSo0kD9AlignmentVSo0kD12DistributionVtF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAAE6VStack5views7spacing9alignment12distributionSo07UIStackD0CSo6UIViewCd_12CoreGraphics7CGFloatVSo0kD9AlignmentVSo0kD12DistributionVtF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnchorKit.StackViewProtocol>",
+            "sugared_genericSig": "<Self where Self : AnchorKit.StackViewProtocol>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "HStack",
+            "printedName": "HStack(views:spacing:alignment:distribution:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Alignment",
+                "printedName": "UIKit.UIStackView.Alignment",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIStackViewAlignment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Distribution",
+                "printedName": "UIKit.UIStackView.Distribution",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIStackViewDistribution"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAAE6HStack5views7spacing9alignment12distributionSo07UIStackD0CSo6UIViewCd_14CoreFoundation7CGFloatVSo0kD9AlignmentVSo0kD12DistributionVtF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAAE6HStack5views7spacing9alignment12distributionSo07UIStackD0CSo6UIViewCd_12CoreGraphics7CGFloatVSo0kD9AlignmentVSo0kD12DistributionVtF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : AnchorKit.StackViewProtocol>",
+            "sugared_genericSig": "<Self where Self : AnchorKit.StackViewProtocol>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withSize",
+            "printedName": "withSize(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAASo16UIViewControllerCRbzrlE8withSizeyqd__So6CGSizeVSo0F0CRbd__lF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAASo16UIViewControllerCRbzrlE8withSizeyqd__So6CGSizeVSo0F0CRbd__lF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : UIKit.UIViewController, τ_1_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self, T where Self : UIKit.UIViewController, T : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withHeight",
+            "printedName": "withHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAASo16UIViewControllerCRbzrlE10withHeightySo0F0C14CoreFoundation7CGFloatVF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAASo16UIViewControllerCRbzrlE10withHeightySo0F0C12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIViewController>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withWidth",
+            "printedName": "withWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAASo16UIViewControllerCRbzrlE9withWidthySo0F0C14CoreFoundation7CGFloatVF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAASo16UIViewControllerCRbzrlE9withWidthySo0F0C12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIViewController>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIViewController>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withBorder",
+            "printedName": "withBorder(width:color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAASo16UIViewControllerCRbzrlE10withBorder5width5colorqd__14CoreFoundation7CGFloatV_So7UIColorCtSo0F0CRbd__lF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAASo16UIViewControllerCRbzrlE10withBorder5width5colorqd__12CoreGraphics7CGFloatV_So7UIColorCtSo0F0CRbd__lF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : UIKit.UIViewController, τ_1_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self, T where Self : UIKit.UIViewController, T : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withSize",
+            "printedName": "withSize(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAASo6UIViewCRbzrlE8withSizeyqd__So6CGSizeVAERbd__lF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAASo6UIViewCRbzrlE8withSizeyqd__So6CGSizeVAERbd__lF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : UIKit.UIView, τ_1_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self, T where Self : UIKit.UIView, T : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withHeight",
+            "printedName": "withHeight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAASo6UIViewCRbzrlE10withHeightyAE14CoreFoundation7CGFloatVF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAASo6UIViewCRbzrlE10withHeightyAE12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withWidth",
+            "printedName": "withWidth(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAASo6UIViewCRbzrlE9withWidthyAE14CoreFoundation7CGFloatVF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAASo6UIViewCRbzrlE9withWidthyAE12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self where Self : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withBorder",
+            "printedName": "withBorder(width:color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9AnchorKit17StackViewProtocolPAASo6UIViewCRbzrlE10withBorder5width5colorqd__14CoreFoundation7CGFloatV_So7UIColorCtAERbd__lF",
+            "mangledName": "$s9AnchorKit17StackViewProtocolPAASo6UIViewCRbzrlE10withBorder5width5colorqd__12CoreGraphics7CGFloatV_So7UIColorCtAERbd__lF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : UIKit.UIView, τ_1_0 : UIKit.UIView>",
+            "sugared_genericSig": "<Self, T where Self : UIKit.UIView, T : UIKit.UIView>",
+            "declAttributes": [
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9AnchorKit17StackViewProtocolP",
+        "mangledName": "$s9AnchorKit17StackViewProtocolP",
+        "moduleName": "AnchorKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AnchorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AnchorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AnchorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AnchorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AnchorKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIView",
+        "printedName": "UIView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "leading",
+            "printedName": "leading(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7leadingyy14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7leadingyy12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "leading",
+            "printedName": "leading(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutXAxisAnchor",
+                "printedName": "UIKit.NSLayoutXAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutXAxisAnchor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7leadingyySo013NSLayoutXAxisB0C_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7leadingyySo013NSLayoutXAxisB0C_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "leading",
+            "printedName": "leading(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutXAxisAnchor",
+                "printedName": "UIKit.NSLayoutXAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutXAxisAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7leadingyySo013NSLayoutXAxisB0CF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7leadingyySo013NSLayoutXAxisB0CF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "leading",
+            "printedName": "leading(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7leadingyyAB_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7leadingyyAB_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "top",
+            "printedName": "top(_:safe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE3top_4safey14CoreFoundation7CGFloatV_SbtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE3top_4safey12CoreGraphics7CGFloatV_SbtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "top",
+            "printedName": "top(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutYAxisAnchor",
+                "printedName": "UIKit.NSLayoutYAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE3topyySo013NSLayoutYAxisB0C_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE3topyySo013NSLayoutYAxisB0C_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "top",
+            "printedName": "top(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutYAxisAnchor",
+                "printedName": "UIKit.NSLayoutYAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE3topyySo013NSLayoutYAxisB0CF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE3topyySo013NSLayoutYAxisB0CF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "top",
+            "printedName": "top(_:_:safe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE3top__4safeyAB_14CoreFoundation7CGFloatVSbtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE3top__4safeyAB_12CoreGraphics7CGFloatVSbtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trailing",
+            "printedName": "trailing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE8trailingyy14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE8trailingyy12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trailing",
+            "printedName": "trailing(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutXAxisAnchor",
+                "printedName": "UIKit.NSLayoutXAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutXAxisAnchor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE8trailingyySo013NSLayoutXAxisB0C_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE8trailingyySo013NSLayoutXAxisB0C_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trailing",
+            "printedName": "trailing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutXAxisAnchor",
+                "printedName": "UIKit.NSLayoutXAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutXAxisAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE8trailingyySo013NSLayoutXAxisB0CF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE8trailingyySo013NSLayoutXAxisB0CF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "trailing",
+            "printedName": "trailing(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE8trailingyyAB_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE8trailingyyAB_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bottom",
+            "printedName": "bottom(_:safe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6bottom_4safey14CoreFoundation7CGFloatV_SbtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6bottom_4safey12CoreGraphics7CGFloatV_SbtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bottom",
+            "printedName": "bottom(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutYAxisAnchor",
+                "printedName": "UIKit.NSLayoutYAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6bottomyySo013NSLayoutYAxisB0C_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6bottomyySo013NSLayoutYAxisB0C_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bottom",
+            "printedName": "bottom(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutYAxisAnchor",
+                "printedName": "UIKit.NSLayoutYAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6bottomyySo013NSLayoutYAxisB0CF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6bottomyySo013NSLayoutYAxisB0CF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bottom",
+            "printedName": "bottom(_:_:safe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6bottom__4safeyAB_14CoreFoundation7CGFloatVSbtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6bottom__4safeyAB_12CoreGraphics7CGFloatVSbtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerX",
+            "printedName": "centerX(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7centerXyy14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7centerXyy12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerX",
+            "printedName": "centerX(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutXAxisAnchor",
+                "printedName": "UIKit.NSLayoutXAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutXAxisAnchor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7centerXyySo013NSLayoutXAxisB0C_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7centerXyySo013NSLayoutXAxisB0C_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerX",
+            "printedName": "centerX(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutXAxisAnchor",
+                "printedName": "UIKit.NSLayoutXAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutXAxisAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7centerXyySo013NSLayoutXAxisB0CF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7centerXyySo013NSLayoutXAxisB0CF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerX",
+            "printedName": "centerX(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7centerXyyAB_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7centerXyyAB_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerY",
+            "printedName": "centerY(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7centerYyy14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7centerYyy12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerY",
+            "printedName": "centerY(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutYAxisAnchor",
+                "printedName": "UIKit.NSLayoutYAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7centerYyySo013NSLayoutYAxisB0C_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7centerYyySo013NSLayoutYAxisB0C_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerY",
+            "printedName": "centerY(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutYAxisAnchor",
+                "printedName": "UIKit.NSLayoutYAxisAnchor",
+                "usr": "c:objc(cs)NSLayoutYAxisAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7centerYyySo013NSLayoutYAxisB0CF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7centerYyySo013NSLayoutYAxisB0CF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centerY",
+            "printedName": "centerY(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE7centerYyyAB_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE7centerYyyAB_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "height",
+            "printedName": "height(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6heightyy14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6heightyy12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "height",
+            "printedName": "height(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutDimension",
+                "printedName": "UIKit.NSLayoutDimension",
+                "usr": "c:objc(cs)NSLayoutDimension"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6heightyySo17NSLayoutDimensionC_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6heightyySo17NSLayoutDimensionC_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "height",
+            "printedName": "height(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutDimension",
+                "printedName": "UIKit.NSLayoutDimension",
+                "usr": "c:objc(cs)NSLayoutDimension"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6heightyySo17NSLayoutDimensionCF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6heightyySo17NSLayoutDimensionCF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "height",
+            "printedName": "height(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6heightyyAB_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6heightyyAB_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "height",
+            "printedName": "height(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6height_4withyAB_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6height_4withyAB_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "width",
+            "printedName": "width(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE5widthyy14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE5widthyy12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "width",
+            "printedName": "width(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutDimension",
+                "printedName": "UIKit.NSLayoutDimension",
+                "usr": "c:objc(cs)NSLayoutDimension"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE5widthyySo17NSLayoutDimensionC_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE5widthyySo17NSLayoutDimensionC_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "width",
+            "printedName": "width(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSLayoutDimension",
+                "printedName": "UIKit.NSLayoutDimension",
+                "usr": "c:objc(cs)NSLayoutDimension"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE5widthyySo17NSLayoutDimensionCF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE5widthyySo17NSLayoutDimensionCF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "width",
+            "printedName": "width(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE5widthyyAB_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE5widthyyAB_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "width",
+            "printedName": "width(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE5width_4withyAB_14CoreFoundation7CGFloatVtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE5width_4withyAB_12CoreGraphics7CGFloatVtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "anchorFill",
+            "printedName": "anchorFill(view:safe:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE10anchorFill4view4safeyAB_SbtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE10anchorFill4view4safeyAB_SbtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "anchor",
+            "printedName": "anchor(view:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIView) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIViewC9AnchorKitE6anchor4view10completionyAB_yABXEtF",
+            "mangledName": "$sSo6UIViewC9AnchorKitE6anchor4view10completionyAB_yABXEtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StackViewProtocol",
+            "printedName": "StackViewProtocol",
+            "usr": "s:9AnchorKit17StackViewProtocolP",
+            "mangledName": "$s9AnchorKit17StackViewProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StackViewProtocol",
+            "printedName": "StackViewProtocol",
+            "usr": "s:9AnchorKit17StackViewProtocolP",
+            "mangledName": "$s9AnchorKit17StackViewProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UITableView",
+        "printedName": "UITableView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(cell:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC9AnchorKitE8register4cellyyXlXp_tF",
+            "mangledName": "$sSo11UITableViewC9AnchorKitE8register4cellyyXlXp_tF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reuseable",
+            "printedName": "reuseable(_:indexPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UITableViewC9AnchorKitE9reuseable_9indexPathxxm_10Foundation05IndexG0VtSo0aB4CellCRbzlF",
+            "mangledName": "$sSo11UITableViewC9AnchorKitE9reuseable_9indexPathxxm_10Foundation05IndexG0VtSo0aB4CellCRbzlF",
+            "moduleName": "AnchorKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UITableViewCell>",
+            "sugared_genericSig": "<T where T : UIKit.UITableViewCell>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(cell:delegate:dataSource:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITableView",
+                "printedName": "UIKit.UITableView",
+                "usr": "c:objc(cs)UITableView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITableViewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITableViewDelegate",
+                    "printedName": "UIKit.UITableViewDelegate",
+                    "usr": "c:objc(pl)UITableViewDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITableViewDataSource?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITableViewDataSource",
+                    "printedName": "UIKit.UITableViewDataSource",
+                    "usr": "c:objc(pl)UITableViewDataSource"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So11UITableViewC9AnchorKitE4cell8delegate10dataSourceAByXlXp_So0aB8Delegate_pSgSo0ab4DataH0_pSgtcfc",
+            "mangledName": "$sSo11UITableViewC9AnchorKitE4cell8delegate10dataSourceAByXlXp_So0aB8Delegate_pSgSo0ab4DataH0_pSgtcfc",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UITableView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UITableView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIScrollView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIScrollView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StackViewProtocol",
+            "printedName": "StackViewProtocol",
+            "usr": "s:9AnchorKit17StackViewProtocolP",
+            "mangledName": "$s9AnchorKit17StackViewProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIStackView",
+        "printedName": "UIStackView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "withMargins",
+            "printedName": "withMargins(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC9AnchorKitE11withMarginsyABSo12UIEdgeInsetsVF",
+            "mangledName": "$sSo11UIStackViewC9AnchorKitE11withMarginsyABSo12UIEdgeInsetsVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "padLeft",
+            "printedName": "padLeft(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC9AnchorKitE7padLeftyAB14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UIStackViewC9AnchorKitE7padLeftyAB12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "padTop",
+            "printedName": "padTop(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC9AnchorKitE6padTopyAB14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UIStackViewC9AnchorKitE6padTopyAB12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "padBottom",
+            "printedName": "padBottom(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC9AnchorKitE9padBottomyAB14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UIStackViewC9AnchorKitE9padBottomyAB12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "padRight",
+            "printedName": "padRight(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC9AnchorKitE8padRightyAB14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UIStackViewC9AnchorKitE8padRightyAB12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "allSide",
+            "printedName": "allSide(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC9AnchorKitE7allSideyAB14CoreFoundation7CGFloatVF",
+            "mangledName": "$sSo11UIStackViewC9AnchorKitE7allSideyAB12CoreGraphics7CGFloatVF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllArrangedSubviews",
+            "printedName": "removeAllArrangedSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So11UIStackViewC9AnchorKitE25removeAllArrangedSubviewsSaySo6UIViewCGyF",
+            "mangledName": "$sSo11UIStackViewC9AnchorKitE25removeAllArrangedSubviewsSaySo6UIViewCGyF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIStackView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "9.0",
+        "objc_name": "UIStackView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StackViewProtocol",
+            "printedName": "StackViewProtocol",
+            "usr": "s:9AnchorKit17StackViewProtocolP",
+            "mangledName": "$s9AnchorKit17StackViewProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView+Stacking.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView+Stacking.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1108,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView+Stacking.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 363,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 445,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 528,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 706,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 785,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 955,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1032,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 346,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 423,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 501,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 669,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 743,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 903,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 975,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 354,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 516,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 710,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 908,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1110,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/UIStackView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1309,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 257,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 368,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 457,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 550,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 689,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 767,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 872,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 952,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 970,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1117,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1239,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 1338,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1427,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1558,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 1632,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1650,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1791,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1907,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 2013,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2127,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 2221,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2316,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2457,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 2532,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2640,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 2730,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2748,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2902,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3031,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 3133,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3226,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3363,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 3440,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3606,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3729,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 3832,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3943,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 4036,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4129,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4264,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 4342,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4448,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 4537,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4648,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 4741,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4834,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4973,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 5051,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5156,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 5254,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 5284,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5396,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5498,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 5598,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5690,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5825,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 5906,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6009,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 6091,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6198,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 6290,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 6320,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6430,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6530,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 6629,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6719,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6847,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 6927,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7028,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "FloatLiteral",
+      "offset": 7109,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7214,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7306,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/nahid\/Desktop\/AnchorKit\/AnchorKit\/AnchorKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7643,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

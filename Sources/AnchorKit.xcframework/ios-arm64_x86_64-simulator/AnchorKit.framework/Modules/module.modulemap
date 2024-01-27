@@ -1,0 +1,11 @@
+framework module AnchorKit {
+  umbrella header "AnchorKit.h"
+  export *
+
+  module * { export * }
+}
+
+module AnchorKit.Swift {
+  header "AnchorKit-Swift.h"
+  requires objc
+}

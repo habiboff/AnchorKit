@@ -1,0 +1,107 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AnchorKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AnchorKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol StackViewProtocol {
+  @discardableResult
+  func VStack(views: UIKit.UIView..., spacing: CoreFoundation.CGFloat, alignment: UIKit.UIStackView.Alignment, distribution: UIKit.UIStackView.Distribution) -> UIKit.UIStackView
+  @discardableResult
+  func HStack(views: UIKit.UIView..., spacing: CoreFoundation.CGFloat, alignment: UIKit.UIStackView.Alignment, distribution: UIKit.UIStackView.Distribution) -> UIKit.UIStackView
+}
+extension AnchorKit.StackViewProtocol {
+  @discardableResult
+  public func VStack(views: UIKit.UIView..., spacing: CoreFoundation.CGFloat = 0, alignment: UIKit.UIStackView.Alignment = .fill, distribution: UIKit.UIStackView.Distribution = .fill) -> UIKit.UIStackView
+  @discardableResult
+  public func HStack(views: UIKit.UIView..., spacing: CoreFoundation.CGFloat = 0, alignment: UIKit.UIStackView.Alignment = .fill, distribution: UIKit.UIStackView.Distribution = .fill) -> UIKit.UIStackView
+}
+extension UIKit.UIView : AnchorKit.StackViewProtocol {
+}
+extension UIKit.UIViewController : AnchorKit.StackViewProtocol {
+}
+extension UIKit.UITableView {
+  @_Concurrency.MainActor(unsafe) public func register(cell: Swift.AnyClass)
+  @_Concurrency.MainActor(unsafe) public func reuseable<T>(_ type: T.Type, indexPath: Foundation.IndexPath) -> T where T : UIKit.UITableViewCell
+  @_Concurrency.MainActor(unsafe) convenience public init(cell: Swift.AnyClass, delegate: (any UIKit.UITableViewDelegate)?, dataSource: (any UIKit.UITableViewDataSource)?)
+}
+extension AnchorKit.StackViewProtocol where Self : UIKit.UIViewController {
+  @discardableResult
+  public func withSize<T>(_ size: CoreFoundation.CGSize) -> T where T : UIKit.UIView
+  @discardableResult
+  public func withHeight(_ height: CoreFoundation.CGFloat) -> UIKit.UIView
+  @discardableResult
+  public func withWidth(_ width: CoreFoundation.CGFloat) -> UIKit.UIView
+  @discardableResult
+  public func withBorder<T>(width: CoreFoundation.CGFloat, color: UIKit.UIColor) -> T where T : UIKit.UIView
+}
+extension AnchorKit.StackViewProtocol where Self : UIKit.UIView {
+  @discardableResult
+  public func withSize<T>(_ size: CoreFoundation.CGSize) -> T where T : UIKit.UIView
+  @discardableResult
+  public func withHeight(_ height: CoreFoundation.CGFloat) -> UIKit.UIView
+  @discardableResult
+  public func withWidth(_ width: CoreFoundation.CGFloat) -> UIKit.UIView
+  @discardableResult
+  public func withBorder<T>(width: CoreFoundation.CGFloat, color: UIKit.UIColor) -> T where T : UIKit.UIView
+}
+extension UIKit.UIStackView {
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func withMargins(_ margins: UIKit.UIEdgeInsets) -> UIKit.UIStackView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func padLeft(_ left: CoreFoundation.CGFloat) -> UIKit.UIStackView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func padTop(_ top: CoreFoundation.CGFloat) -> UIKit.UIStackView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func padBottom(_ bottom: CoreFoundation.CGFloat) -> UIKit.UIStackView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func padRight(_ right: CoreFoundation.CGFloat) -> UIKit.UIStackView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func allSide(_ value: CoreFoundation.CGFloat) -> UIKit.UIStackView
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) public func removeAllArrangedSubviews() -> [UIKit.UIView]
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func leading(_ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func leading(_ anchor: UIKit.NSLayoutXAxisAnchor, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func leading(_ anchor: UIKit.NSLayoutXAxisAnchor)
+  @_Concurrency.MainActor(unsafe) public func leading(_ view: UIKit.UIView, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func top(_ constant: CoreFoundation.CGFloat = 0.0, safe: Swift.Bool = false)
+  @_Concurrency.MainActor(unsafe) public func top(_ anchor: UIKit.NSLayoutYAxisAnchor, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func top(_ anchor: UIKit.NSLayoutYAxisAnchor)
+  @_Concurrency.MainActor(unsafe) public func top(_ view: UIKit.UIView, _ constant: CoreFoundation.CGFloat = 0.0, safe: Swift.Bool = false)
+  @_Concurrency.MainActor(unsafe) public func trailing(_ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func trailing(_ anchor: UIKit.NSLayoutXAxisAnchor, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func trailing(_ anchor: UIKit.NSLayoutXAxisAnchor)
+  @_Concurrency.MainActor(unsafe) public func trailing(_ view: UIKit.UIView, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func bottom(_ constant: CoreFoundation.CGFloat = 0.0, safe: Swift.Bool = false)
+  @_Concurrency.MainActor(unsafe) public func bottom(_ anchor: UIKit.NSLayoutYAxisAnchor, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func bottom(_ anchor: UIKit.NSLayoutYAxisAnchor)
+  @_Concurrency.MainActor(unsafe) public func bottom(_ view: UIKit.UIView, _ constant: CoreFoundation.CGFloat = 0.0, safe: Swift.Bool = false)
+  @_Concurrency.MainActor(unsafe) public func centerX(_ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func centerX(_ anchor: UIKit.NSLayoutXAxisAnchor, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func centerX(_ anchor: UIKit.NSLayoutXAxisAnchor)
+  @_Concurrency.MainActor(unsafe) public func centerX(_ view: UIKit.UIView, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func centerY(_ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func centerY(_ anchor: UIKit.NSLayoutYAxisAnchor, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func centerY(_ anchor: UIKit.NSLayoutYAxisAnchor)
+  @_Concurrency.MainActor(unsafe) public func centerY(_ view: UIKit.UIView, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func height(_ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func height(_ anchor: UIKit.NSLayoutDimension, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func height(_ anchor: UIKit.NSLayoutDimension)
+  @_Concurrency.MainActor(unsafe) public func height(_ view: UIKit.UIView, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func height(_ view: UIKit.UIView, with multiplier: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func width(_ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func width(_ anchor: UIKit.NSLayoutDimension, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func width(_ anchor: UIKit.NSLayoutDimension)
+  @_Concurrency.MainActor(unsafe) public func width(_ view: UIKit.UIView, _ constant: CoreFoundation.CGFloat = 0.0)
+  @_Concurrency.MainActor(unsafe) public func width(_ view: UIKit.UIView, with multiplier: CoreFoundation.CGFloat = 0.0)
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func anchorFill(view: UIKit.UIView, safe: Swift.Bool = false)
+  @_Concurrency.MainActor(unsafe) public func anchor(view: UIKit.UIView, completion: (_ kit: UIKit.UIView) -> ())
+}
