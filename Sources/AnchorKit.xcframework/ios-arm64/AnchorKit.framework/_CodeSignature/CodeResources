@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AnchorKit-Swift.h</key>
 		<data>
-		gUGWptuv8p990hD6FJk+1GopN1o=
+		C2xhFzhkjhbh0xCOPC57PDs0kKA=
 		</data>
 		<key>Headers/AnchorKit.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wqguUwh1lZD04FOZv+BZWl/fEZU=
+		MkiyqdIA4t6Jsy2aswr5DrEvEds=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Ww2mb/tkL21wT1ftxaNmydLGzNA=
+		uDOgYTJ37FksG0eS3x1CubUnvgk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kaO1rDTbSU0v6JgGrOwjipgp/+OQLUT+v2WrnFl2Id0=
+			0hryYsjZzdmwVbnlGKCaV2JAZ3w3HRdnt9REqGtLvZ0=
 			</data>
 		</dict>
 		<key>Headers/AnchorKit.h</key>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3cQK3sFpAGdDDar3cW2y+FucyKgmyt33rwM6ZPzuPW4=
+			gpXXYSMwTmS+QseZGMZxoU8qqhQciWPU796ypmNKaHA=
 			</data>
 		</dict>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			901u80kkltVNgIJZDaQApmd0w8FHUzSElpMExC/01jA=
+			+sUpKybaP0P0xs8Q4BAi92ql0afe8k9qufuqUu9zamE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

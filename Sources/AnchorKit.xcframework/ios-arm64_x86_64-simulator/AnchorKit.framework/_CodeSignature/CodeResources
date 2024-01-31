@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AnchorKit-Swift.h</key>
 		<data>
-		GM34BgGQs3XA7Q/xdXGikVRQr5g=
+		Q3CiSLs2uF4f4PtWnnVleyGRqTM=
 		</data>
 		<key>Headers/AnchorKit.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wqguUwh1lZD04FOZv+BZWl/fEZU=
+		MkiyqdIA4t6Jsy2aswr5DrEvEds=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		87D4kExof4SpfoU/WRujk77n348=
+		sJwOoNAgx0Ky22jwjOMRp6JX5Fo=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wqguUwh1lZD04FOZv+BZWl/fEZU=
+		MkiyqdIA4t6Jsy2aswr5DrEvEds=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wCto9u8mbtfuT+ZZbJo07g5nmfg=
+		qrRUuwU28UuWcjxlMYjz+7x45VQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qU9KqzXAq5rkt6gqNQQGwauoqJ0QPxWU3muwcQXavfw=
+			3rpLvwlbvygDfaxMwuC8vZDGUbRQ4JPpC1omDRvYXDY=
 			</data>
 		</dict>
 		<key>Headers/AnchorKit.h</key>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3cQK3sFpAGdDDar3cW2y+FucyKgmyt33rwM6ZPzuPW4=
+			gpXXYSMwTmS+QseZGMZxoU8qqhQciWPU796ypmNKaHA=
 			</data>
 		</dict>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8dQe7DGuBPiv1+1Ji5NPiZsi0wtvFa7SSJ7ofyuBd2I=
+			7Kw+09+P5Hcie0QSifdwlu+Fxtrjg0AKCmfL059mLpY=
 			</data>
 		</dict>
 		<key>Modules/AnchorKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3cQK3sFpAGdDDar3cW2y+FucyKgmyt33rwM6ZPzuPW4=
+			gpXXYSMwTmS+QseZGMZxoU8qqhQciWPU796ypmNKaHA=
 			</data>
 		</dict>
 		<key>Modules/AnchorKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uEA/PQFCl53p/GFZ14meX7X1vcBkinxiy1puXfYHCRw=
+			yxrNFueRiaa3nvwBCY5nB0W4PogFblASBB99t5z6Lb0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
