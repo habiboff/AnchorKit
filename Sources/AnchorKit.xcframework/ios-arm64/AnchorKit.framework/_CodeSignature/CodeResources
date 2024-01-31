@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/AnchorKit-Swift.h</key>
 		<data>
-		C2xhFzhkjhbh0xCOPC57PDs0kKA=
+		gUGWptuv8p990hD6FJk+1GopN1o=
 		</data>
 		<key>Headers/AnchorKit.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		t+J5Chw41N0MeT4/ttTHKhI+bCY=
+		qBFE4cqWC8bBeg4X83G7puFVWrE=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		rZ2y4ALn2z2We6l70wj/9SxCATM=
+		ZYt+/JP5mtVHFXvFyZSyslolR2M=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		SwYOhRrmTcs+h1ZV1Udy3wI4Y2Y=
+		5rZ1O2XbY+CfikkYPCH9RxxnZKI=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		id8+1FRQVEgKtOlV5aNhVrBqR5w=
+		dJWYGeDeasjlZUMRzKT/nK1Bgw8=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		SwYOhRrmTcs+h1ZV1Udy3wI4Y2Y=
+		5rZ1O2XbY+CfikkYPCH9RxxnZKI=
 		</data>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		O2agqckG/VROx3XQajuAWiRtAKk=
+		wlWdCB9ODRFbhlaqHV6jgag5BS8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0hryYsjZzdmwVbnlGKCaV2JAZ3w3HRdnt9REqGtLvZ0=
+			kaO1rDTbSU0v6JgGrOwjipgp/+OQLUT+v2WrnFl2Id0=
 			</data>
 		</dict>
 		<key>Headers/AnchorKit.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tW84s0/JdhJrX4pIUJHnwE18YIqw5xhoj21sZAWqQqI=
+			9QzmHNDrQO2Y7N3DvURqs3wS4HbhN1pCf8u8cxZqiIU=
 			</data>
 		</dict>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ISHn6SPuga+dBUKlA2l7+BI4zFKGTztKRQ72cHcNcA=
+			gRzxKTk1V5x8zXu+4tRBixWqveS91QoL0IuYQK5fsRk=
 			</data>
 		</dict>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uoyBl+qP1ZOQRPQF+0zHTKcBoUi5XWDYiTSw8tDY5Fs=
+			Ec9ErPr9OAqmPowA/2qbhCzeHdjyGr7ozTADIYI+wxI=
 			</data>
 		</dict>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ISHn6SPuga+dBUKlA2l7+BI4zFKGTztKRQ72cHcNcA=
+			gRzxKTk1V5x8zXu+4tRBixWqveS91QoL0IuYQK5fsRk=
 			</data>
 		</dict>
 		<key>Modules/AnchorKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WxqVVFcP7nh4PJazOS/IG8gh2BZmNbZKaiYBERBlCYw=
+			XmAfQeWhohoEAM09cJbmv3PN47TqIF2pg4bSckHQOBo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
