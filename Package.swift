@@ -5,15 +5,13 @@ import PackageDescription
 
 let package = Package(
     name: "AnchorKit",
+    platforms: [.iOS(.v12)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "AnchorKit",
             targets: ["AnchorKit"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(name: "AnchorKit", path: "./Sources/AnchorKit.xcframework")
     ]
 )
