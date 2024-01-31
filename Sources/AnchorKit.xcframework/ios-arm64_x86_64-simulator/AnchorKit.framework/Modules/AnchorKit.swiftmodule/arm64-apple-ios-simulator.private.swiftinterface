@@ -39,6 +39,15 @@ extension AnchorKit.StackViewProtocol where Self : UIKit.UIViewController {
   @discardableResult
   public func withBorder<T>(width: CoreFoundation.CGFloat, color: UIKit.UIColor) -> T where T : UIKit.UIView
 }
+extension UIKit.UIViewController {
+  public enum Detents {
+    case medium
+    case large
+    case mediumLarge
+    case custom(CoreFoundation.CGFloat)
+  }
+  @_Concurrency.MainActor(unsafe) public func presentSheet(vc: UIKit.UIViewController, detents: UIKit.UIViewController.Detents)
+}
 extension AnchorKit.StackViewProtocol where Self : UIKit.UIView {
   @discardableResult
   public func withSize<T>(_ size: CoreFoundation.CGSize) -> T where T : UIKit.UIView

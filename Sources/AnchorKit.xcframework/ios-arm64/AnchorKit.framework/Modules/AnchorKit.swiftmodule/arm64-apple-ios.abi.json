@@ -1867,6 +1867,214 @@
         "kind": "TypeDecl",
         "name": "UIViewController",
         "printedName": "UIViewController",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Detents",
+            "printedName": "Detents",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "medium",
+                "printedName": "medium",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIViewController.Detents.Type) -> UIKit.UIViewController.Detents",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Detents",
+                        "printedName": "UIKit.UIViewController.Detents",
+                        "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIViewController.Detents.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Detents",
+                            "printedName": "UIKit.UIViewController.Detents",
+                            "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO6mediumyA2EmF",
+                "mangledName": "$sSo16UIViewControllerC9AnchorKitE7DetentsO6mediumyA2EmF",
+                "moduleName": "AnchorKit"
+              },
+              {
+                "kind": "Var",
+                "name": "large",
+                "printedName": "large",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIViewController.Detents.Type) -> UIKit.UIViewController.Detents",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Detents",
+                        "printedName": "UIKit.UIViewController.Detents",
+                        "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIViewController.Detents.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Detents",
+                            "printedName": "UIKit.UIViewController.Detents",
+                            "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO5largeyA2EmF",
+                "mangledName": "$sSo16UIViewControllerC9AnchorKitE7DetentsO5largeyA2EmF",
+                "moduleName": "AnchorKit"
+              },
+              {
+                "kind": "Var",
+                "name": "mediumLarge",
+                "printedName": "mediumLarge",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIViewController.Detents.Type) -> UIKit.UIViewController.Detents",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Detents",
+                        "printedName": "UIKit.UIViewController.Detents",
+                        "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIViewController.Detents.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Detents",
+                            "printedName": "UIKit.UIViewController.Detents",
+                            "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO11mediumLargeyA2EmF",
+                "mangledName": "$sSo16UIViewControllerC9AnchorKitE7DetentsO11mediumLargeyA2EmF",
+                "moduleName": "AnchorKit"
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIViewController.Detents.Type) -> (CoreGraphics.CGFloat) -> UIKit.UIViewController.Detents",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreGraphics.CGFloat) -> UIKit.UIViewController.Detents",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Detents",
+                            "printedName": "UIKit.UIViewController.Detents",
+                            "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CGFloat",
+                            "printedName": "CoreGraphics.CGFloat",
+                            "usr": "s:14CoreFoundation7CGFloatV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UIKit.UIViewController.Detents.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Detents",
+                            "printedName": "UIKit.UIViewController.Detents",
+                            "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO6customyAE14CoreFoundation7CGFloatVcAEmF",
+                "mangledName": "$sSo16UIViewControllerC9AnchorKitE7DetentsO6customyAE12CoreGraphics7CGFloatVcAEmF",
+                "moduleName": "AnchorKit"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO",
+            "mangledName": "$sSo16UIViewControllerC9AnchorKitE7DetentsO",
+            "moduleName": "AnchorKit",
+            "isFromExtension": true
+          },
+          {
+            "kind": "Function",
+            "name": "presentSheet",
+            "printedName": "presentSheet(vc:detents:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Detents",
+                "printedName": "UIKit.UIViewController.Detents",
+                "usr": "s:So16UIViewControllerC9AnchorKitE7DetentsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UIViewControllerC9AnchorKitE12presentSheet2vc7detentsyAB_AbCE7DetentsOtF",
+            "mangledName": "$sSo16UIViewControllerC9AnchorKitE12presentSheet2vc7detentsyAB_AbCE7DetentsOtF",
+            "moduleName": "AnchorKit",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
         "declKind": "Class",
         "usr": "c:objc(cs)UIViewController",
         "moduleName": "UIKit",
@@ -2583,7 +2791,7 @@
     {
       "filePath": "\/Users\/nahid\/Desktop\/Library\/AnchorKit\/AnchorKit\/UIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2078,
+      "offset": 2085,
       "length": 4,
       "value": "true"
     },
